@@ -21,22 +21,22 @@
     
     <img src="D:\CV WEB UPDATED\src\components\profile1.png" 
          id="photo-1"
-         data-dark-src="profile1.png"
-         data-light-src="profile1 lightmode.png"
+         data-dark-src="D:\CV WEB UPDATED\src\components\profile1.png"
+         data-light-src="D:\CV WEB UPDATED\src\components\profile1 lightmode.png"
          alt="Profile" 
          class="profile-img absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:opacity-0 group-hover:scale-110">
     
     <img src="D:\CV WEB UPDATED\src\components\profile2png.png" 
          id="photo-2"
-         data-dark-src="profile2png.png"
-         data-light-src="profile2 lightmode.png"
+         data-dark-src="D:\CV WEB UPDATED\src\components\profile2png.png"
+         data-light-src="D:\CV WEB UPDATED\src\components\profile2 lightmode.png"
          alt="Profile Hover" 
          class="profile-img absolute inset-0 w-full h-full object-cover opacity-0 transition-all duration-500 group-hover:opacity-100 scale-105 group-hover:scale-100">
 
     <img src="D:\CV WEB UPDATED\src\components\3rd photo.png" 
          id="photo-3"
-         data-dark-src="profile3 darkmode.png"
-         data-light-src="profile3 lightmode.png"
+         data-dark-src="D:\CV WEB UPDATED\src\components\profile3 darkmode.png"
+         data-light-src="D:\CV WEB UPDATED\src\components\profile3 lightmode.png"
          alt="Profile Clicked" 
          class="profile-img absolute inset-0 w-full h-full object-cover opacity-0 transition-all duration-500 z-20 pointer-events-none">
 </div>
@@ -331,27 +331,60 @@
                 </div>
             </div>
 
-            <div class="card p-6">
-                <div class="flex items-center gap-2 mb-4">
-                    <i class="fas fa-comment-alt text-gray-400"></i>
-                    <h2 class="font-bold text-lg">Recommendations</h2>
-                </div>
-                <p class="text-gray-400 text-sm italic mb-4 leading-relaxed">
-                    "Me and Xiao are bestfriends during collge he was our tech guy to coding and right now he's the one teaching me to be a better developer, he introduced to me the different technologies we use in the company such as Laravel, Bootstrap, etc. With his guidance, I was equipped with some of the current trends and insights in the tech industry..."
-                </p>
-                <div>
-                    <h4 class="font-bold text-sm">Aironn Jayfe Datinguinoo</h4>
-                    <p class="text-xs text-gray-500">Full-Stack Web Developer, BPI</p>
-                </div>
-                <div class="flex gap-1 mt-4">
-                    <div class="w-1.5 h-1.5 rounded-full bg-white"></div>
-                    <div class="w-1.5 h-1.5 rounded-full bg-gray-600"></div>
-                    <div class="w-1.5 h-1.5 rounded-full bg-gray-600"></div>
-                    <div class="w-1.5 h-1.5 rounded-full bg-gray-600"></div>
-                    <div class="w-1.5 h-1.5 rounded-full bg-gray-600"></div>
-                    <div class="w-1.5 h-1.5 rounded-full bg-gray-600"></div>
-                </div>
+            <div class="relative w-full max-w-md overflow-hidden bg-black text-white rounded-xl shadow-2xl border border-gray-800">
+    <div id="slider" class="flex transition-transform duration-500 ease-in-out">
+        
+        <div class="min-w-full p-6">
+            <div class="flex items-center gap-2 mb-4">
+                <i class="fas fa-comment-alt text-gray-400"></i>
+                <h2 class="font-bold text-lg">Recommendations</h2>
             </div>
+            <p class="text-gray-400 text-sm italic mb-4 leading-relaxed">
+                "Me and Xiao are bestfriends during college. He was our tech guy for coding and right now he's teaching me to be a better developer. He introduced me to Laravel and Bootstrap..."
+            </p>
+            <div>
+                <h4 class="font-bold text-sm">Aironn Jayfe Datinguinoo</h4>
+                <p class="text-xs text-gray-500">Full-Stack Web Developer, BPI</p>
+            </div>
+        </div>
+
+        <div class="min-w-full p-6">
+            <div class="flex items-center gap-2 mb-4">
+                <i class="fas fa-comment-alt text-gray-400"></i>
+                <h2 class="font-bold text-lg">Recommendations</h2>
+            </div>
+            <p class="text-gray-400 text-sm italic mb-4 leading-relaxed">
+                "Kuya Xiao is a reliable senior with great expertise on software design and AI. This can be proven with plenty of projects he had done in the past presented at this very web page. He is a charming young man who is easy to approach with a passion for all things code related, and overall summarized with the word "chill" in the informal tone. Ever so persistent even at the face of trouble, he will make sure that his projects are executed with utmost finesse."
+            </p>
+            <div>
+                <h4 class="font-bold text-sm">Allan Justine Castromero</h4>
+                <p class="text-xs text-gray-500">3rd Year Computer Engineering Student</p>
+            </div>
+             </div>
+
+             <div class="min-w-full p-6">
+            <div class="flex items-center gap-2 mb-4">
+                <i class="fas fa-comment-alt text-gray-400"></i>
+                <h2 class="font-bold text-lg">Recommendations</h2>
+            </div>
+            <p class="text-gray-400 text-sm italic mb-4 leading-relaxed">
+                "He is a coding enthusiast with a high level of expertise, whose work reflects both technical skill and creativity. From the moment we met, he is also social, approachable, and deeply dedicated."
+            </p>
+            <div>
+                <h4 class="font-bold text-sm">Kyle Faral</h4>
+                <p class="text-xs text-gray-500">2nd Year Computer Engineering Student</p>
+            </div>
+             </div>
+
+    </div>
+
+    <div class="flex gap-1 p-6 pt-0" id="dots">
+        <div class="dot w-1.5 h-1.5 rounded-full bg-white"></div>
+        <div class="dot w-1.5 h-1.5 rounded-full bg-gray-600"></div>
+        <div class="dot w-1.5 h-1.5 rounded-full bg-gray-600"></div>
+
+    </div>
+</div>
         </div>
     </div>
 
@@ -460,14 +493,14 @@
         </div>
         <div class="relative">
             <div id="gallery-track" class="gallery-track flex gap-4 overflow-x-auto no-scrollbar" tabindex="0" aria-label="Photo gallery" role="list">
-                <img src="congresspic.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Congress event">
-                <img src="Convention.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Convention group photo">
-                <img src="groupphotolibrary.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Group photo">
-                <img src="Leadership.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Leadership team">
-                <img src="sportsco.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Sports event">
-                <img src="teambldgICPEP.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Team building">
-                <img src="teambuilding.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Team building 2">
-                <img src="teamvball.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Team volleyball">
+                <img src="D:\CV WEB UPDATED\src\components\congresspic.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Congress event">
+                <img src="D:\CV WEB UPDATED\src\components\Convention.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Convention group photo">
+                <img src="D:\CV WEB UPDATED\src\components\groupphotolibrary.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Group photo">
+                <img src="D:\CV WEB UPDATED\src\components\Leadership.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Leadership team">
+                <img src="D:\CV WEB UPDATED\src\components\sportsco.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Sports event">
+                <img src="D:\CV WEB UPDATED\src\components\teambldgICPEP.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Team building">
+                <img src="D:\CV WEB UPDATED\src\components\teambuilding.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Team building 2">
+                <img src="D:\CV WEB UPDATED\src\components\teamvball.jpg" class="gallery-item rounded-lg h-48 w-auto object-cover opacity-80 hover:opacity-100 transition" role="listitem" alt="Team volleyball">
             </div>
             
             <button id="gallery-prev" class="absolute left-0 top-1/2 -translate-y-1/2 bg-black/50 p-2 rounded-full border border-gray-600 text-white hover:bg-black focus:outline-none" aria-label="Previous image">
@@ -544,7 +577,7 @@
             <h3 id="email-modal-title" class="font-bold text-lg">Send an Email</h3>
             <form id="email-form" class="mt-4" novalidate>
                 <div class="mb-3">
-                    <label class="text-xs text-gray-400">Your Name (optional)</label>
+                    <label class="text-xs text-gray-400">Your Name (Required)</label>
                     <input type="text" name="name" class="input-field w-full p-2 mt-1 rounded border" placeholder="Your name">
                 </div>
                 <div class="mb-3">
@@ -572,7 +605,7 @@
         </div>
     </div> 
 
-    <!-- Email modal removed -->
+    
 
     <!-- Chat modal -->
     <div id="chat-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="chat-modal-title" aria-hidden="true">
@@ -984,6 +1017,7 @@
             const botId = Date.now() + 1;
             const botMsg = { id: botId, who: 'xiao', text: '', ts: Date.now(), status: 'pending' };
             const msgs = loadChatMessages(); msgs.push(botMsg); saveChatMessages(msgs); renderChat();
+            
 
             // show assistant typing indicator appended while streaming
             const typingEl = appendTyping();
@@ -1230,27 +1264,32 @@
             setTimeout(updateGalleryAria, 50);
         }
 
+        const slider = document.getElementById('slider');
+const dots = document.querySelectorAll('.dot');
+let currentIndex = 0;
+const totalSlides = dots.length;
+
+function updateSlider() {
+    // Move the slider container
+    slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+    
+    // Update dots
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('bg-white', index === currentIndex);
+        dot.classList.toggle('bg-gray-600', index !== currentIndex);
+    });
+}
+
+function autoSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    updateSlider();
+}
+
+// Start the timer
+setInterval(autoSlide, 5000); 
+
     })();
     </script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
